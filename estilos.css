@@ -1,0 +1,62 @@
+/* selector por tagname */
+header {
+    /* propiedad: valor; */
+    background-color: #9c5c5f;
+    margin: 150px 30px 45px 60px;
+    margin: 40px 80px;
+    margin: 15px;
+    padding: 15px 40px 50px 80px;
+    padding:30px 45px;
+    padding: 0px;
+    border:5px solid blue;
+    border:5px solid blue;
+    border-radius: 0px 30px 0px 30px;
+    text-align: center;
+}
+article{
+    margin: 10px
+}
+.container{ /*ptopiedad:valor */
+background-color: #5d9b9b;
+margin: 15px;
+padding: 15px;
+border-radius: 0px 30px 0px 30px;
+}
+.paragraph{}
+
+
+/*selctor por id*/
+#article2{
+    color:antiquewhite;
+    font-weight:normal;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+/*selector por agrupamiento*/
+h1,
+h2,
+h3,
+h4{ color: blue;
+}
+/* S combinados (son sin espacio=*/
+
+.paragraph.article1{
+    text-decoration: underline;
+}
+.paragraph#article2{
+    color: blue;
+}
+section#uno{
+    background-color: saddlebrown;
+}
+/* selectores dessendientes (son con espacio)*/
+body h1{
+    color: beige;
+}
+body span{
+    color: red;
+}
+body .parent .privacy {
+    color:black ;
+}
